@@ -1,17 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>江西农业大学学生工作管理系统</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鐢靛姏澶у瀛︾睄绠＄悊绯荤粺</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-<frameset rows="59,*" cols="*" frameborder="no" border="0" framespacing="0">
-  <frame src="files/top.html" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame" />
-  <frameset cols="213,*" frameborder="no" border="0" framespacing="0">
-    <frame src="files/systemAdmin/left.html" name="leftFrame" scrolling="No" noresize="noresize" id="leftFrame" title="leftFrame" />
-    <frame src="files/systemAdmin/mainfra.html" name="mainFrame" id="mainFrame" title="mainFrame" />
-  </frameset>
-</frameset>
-<noframes><body>
+<body>
+    <header>
+        <iframe src="files/top.html" name="topFrame" id="topFrame" title="topFrame"></iframe>
+    </header>
+    <div class="container">
+        <aside>
+            <iframe src="files/systemAdmin/left.html" name="leftFrame" id="leftFrame" title="leftFrame"></iframe>
+        </aside>
+        <main>
+            <iframe src="files/systemAdmin/mainfra.html" name="mainFrame" id="mainFrame" title="mainFrame"></iframe>
+        </main>
+    </div>
 </body>
-</noframes></html>
+</html>
