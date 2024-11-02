@@ -2,10 +2,13 @@
   "name": "webpage-studentmanagement",
   "version": "1.0.0",
   "description": "test1",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
