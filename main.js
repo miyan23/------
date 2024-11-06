@@ -21,7 +21,7 @@ function openInBrowser(url) {
       console.log(`已打开: ${url}`);  
     });  
   } else {  
-    // Linux 系统通常使用 xdg-open 命令  
+    // Linux 系统通常使用 xdg-open 
     exec(`xdg-open ${url}`, (error, stdout, stderr) => {  
       if (error) {  
         console.error(`执行出错: ${error}`);  
